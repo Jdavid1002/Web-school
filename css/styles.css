@@ -1,0 +1,225 @@
+.first-banner-Rl{
+    background-image: linear-gradient(to right, rgb(0, 0, 0) , #ffffff00), 
+    url(/img/a-vintage-typewriter-3601081.jpg);  
+    background-blend-mode: hard-light;
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+    grid-template-rows: 0.5fr 4fr;
+    height: 780px;
+    width: 100%;
+    background-size: cover;
+}
+
+
+
+.first-banner-Mm{
+    background-image: linear-gradient(to right, rgb(0, 0, 0) , #ffffff00), 
+    url(/img/sticky-note-lot-1629212.jpg);  
+    background-blend-mode: hard-light;
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+    grid-template-rows: 0.5fr 4fr;
+    height: 780px;
+    width: 100%;
+    background-size: cover;
+}
+
+
+.first-banner-Mt{
+    background-image: linear-gradient(to right, rgb(0, 0, 0) , #ffffff00), 
+    url(/img/close-up-photo-of-assorted-color-of-push-pins-on-map-1078850.jpg);  
+    background-blend-mode: hard-light;
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+    grid-template-rows: 0.5fr 4fr;
+    height: 780px;
+    width: 100%;
+    background-size: cover;
+}
+
+.first-banner-F{
+    background-image: linear-gradient(to right, rgb(0, 0, 0) , #ffffff00), 
+    url(/img/man-wearing-black-and-white-stripe-shirt-looking-at-white-212286.jpg);  
+    background-blend-mode: hard-light;
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+    grid-template-rows: 0.5fr 4fr;
+    height: 780px;
+    width: 100%;
+    background-size: cover;
+}
+
+.first-banner-P{
+    background-image: linear-gradient(to right, rgb(0, 0, 0) , #ffffff00), 
+    url(/img/couple-hugging-and-using-smartphone-near-sea-on-sunset-4555321.jpg);  
+    background-blend-mode: hard-light;
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+    grid-template-rows: 0.5fr 4fr;
+    height: 780px;
+    width: 100%;
+    background-size: cover;
+}
+
+
+.first-banner{
+    background-image: linear-gradient(to right, rgb(0, 0, 0) , #ffffff00), 
+    url(/img/group-of-person-sitting-indoors-3184306\ \(1\).jpg);  
+    background-blend-mode: hard-light;
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+    grid-template-rows: 0.5fr 4fr;
+    height: 780px;
+    width: 100%;
+    background-size: cover;
+}
+
+.first-navbar{
+    margin-top: 0%;
+}
+.first-banner-text-title , .first-banner-text-text{
+    width: 50%;
+}
+.first-banner{
+    transition: all 0.5s;
+}
+.body_dark{
+    background: gray;
+}
+
+.a-btn-mode-dark {
+    display: block;
+}
+.a-btn-mode-dark-1 {
+    display: none;
+}
+.a-btn-mode{
+    display: none;
+}
+.a-btn-mode-1{
+    display: block;
+}
+
+
+.list-menu{
+    position: absolute;
+    transform: translateX(-3000px) ;
+}
+
+.list-menu-1{
+    position: absolute;
+    width: 100%; 
+    transform: translateX(0%);
+    transition: 1000ms; 
+    height: 100%;
+}
+
+
+
+.navbar-text-1{
+    opacity: 0;
+}
+
+
+.list-group{
+    list-style: none;
+}
+
+.menu-btn {
+    display: block;
+    margin: 1em;
+    width: 36px;
+    cursor: pointer;
+    z-index: 200;
+}
+
+.btn-group-1{
+    z-index: -1;
+}
+
+.menu-btn:before,
+.menu-btn:after {
+  background-color: #ffffff;
+  content: '';
+  display: block;
+  height: 4px;
+}
+.menu-btn:before {
+  box-shadow: 0 10px 0 #ffffff;
+  margin-bottom: 16px;
+}
+
+
+
+.body_dark{
+    background: #292b2c;
+    color: white;
+}
+
+  
+
+/*Info*/
+
+.info-person{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.info-logo{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.info-logo-img{
+    background-image: url(/img/Blue\ and\ Green\ Logistics\ Service\ Provider\ Logo.png);
+    background-size: contain;
+    height: 200px;
+    width: 70%;
+    border-radius: 100%;
+}
+
+
+/* Pdp */
+
+.Pdp{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.Pdp-img{
+    background-image: url(/img/macbook-pro-2764678.jpg);
+    background-size: cover;
+}
+
+.Pdp-text-justify , .Pdp-title {
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+
+
+/* Fs */
+
+.Fs-map-text{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.Fs-map-img{
+    background: url(/img/image3.jpg) ;
+    background-size: contain;
+    width: 100%;
+    height:690px ;
+}
+
+
+/* Mt */
+
+
+.Mt-img{
+    width: 50%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
