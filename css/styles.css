@@ -251,10 +251,9 @@
 
 
 .Mt-img{
-    width: 50%;
-    height: 500px;
     margin-left: auto;
     margin-right: auto;
+    width: 50%;
 }
 
 
@@ -289,3 +288,6 @@
 }
 
 
+.Rl-one-one{
+    display: inline-flex;
+}
