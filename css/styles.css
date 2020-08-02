@@ -115,10 +115,14 @@
 }
 
 
-
 .navbar-text-1{
     opacity: 0;
 }
+
+.btn-group-1{
+    z-index: -1;
+}
+
 
 
 .list-group{
@@ -131,10 +135,6 @@
     width: 36px;
     cursor: pointer;
     z-index: 200;
-}
-
-.btn-group-1{
-    z-index: -1;
 }
 
 .menu-btn:before,

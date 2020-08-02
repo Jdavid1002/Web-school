@@ -1,0 +1,144 @@
+.menu-btn-none{
+    opacity: 0;
+}
+
+
+.Animation-Box{
+    width: 100%;
+    height: 100%;
+    animation: AnimationBox  5s;
+    position: absolute;
+    transform: translateY(-2000px);
+}
+
+.Animation-box-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    position: relative;
+    transform: translateY(90px);
+    animation: AnimationImg 5s ;
+}
+
+
+
+
+.Animation-box-text-1{
+    position: relative;
+    transform: translateY(50px);
+    animation: AnimationText-1 5s ;
+}
+
+.Animation-box-text-2{
+    animation: AnimationText-2 5s ;
+}
+
+.Animation-box-text-3{
+    padding-bottom: 300px;
+    animation: AnimationText-3 5s ;
+}
+
+.Animation-Body{
+    transform: translateY(-5000px);
+}
+
+.Animation-Body-1{
+    animation: AnimationBody 1s ;
+    transform: translateY(0px);
+}
+
+.Animation-logo{
+    border-radius: 100%;
+    animation: AnimationCircle 6s;
+}
+
+
+@keyframes AnimationCircle{
+    100%{
+        transform: rotate(-35deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+    0%{
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes AnimationBox {
+    100%{
+        transform: translateY(-2000px);
+    }
+    30%{
+        transform: translateY(0px);
+    }
+    70%{
+        transform: translateY(0px);
+    }
+    0%{
+        transform: translateY(0px);
+    }
+}
+
+@keyframes AnimationBody{
+    100%{
+        transform: translateY(0px);
+    }
+    0%{
+        transform: translateY(-5000px);
+    }
+}
+
+
+@keyframes AnimationImg{
+    100%{
+        transform: translateY(90px);
+    }
+    50%{
+        transform: translateY(90px);
+    }
+    0%{
+        transform: translateY(-2000px);
+    }
+}
+
+
+@keyframes AnimationText-1 {
+    100%{
+        transform: translateX(0px);
+        transform: translateY(50px);
+    }
+    50%{
+        transform: translateX(0px);
+        transform: translateY(50px);
+    }
+    0%{
+        transform: translateX(-2000px);
+    }
+}
+
+@keyframes AnimationText-2 {
+    100%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(0px);
+    }
+    0%{
+        transform: translateX(2000px);
+    }
+}
+
+
+@keyframes AnimationText-3 {
+    100%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translatey(0px);
+    }
+    0%{
+        transform: translateY(2000px);
+    }
+}
